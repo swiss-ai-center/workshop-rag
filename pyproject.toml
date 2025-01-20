@@ -1,0 +1,29 @@
+[project]
+name = "workshop_rag"
+version = "0.1.0"
+description = "A Python project for the workshop on RAG"
+readme = "README.md"
+authors = [
+    { name = "Jonathan Guerne", email = "jonathan.guerne@he-arc.ch" },
+    { name = "Henrique Marques Reis", email = "henrique.marquesreis@he-arc.ch" },
+    { name = "Célien Donzé", email = "celien.donze@hefr.ch" }
+]
+requires-python = "==3.11.10"
+dependencies = [
+    "cryptography>=44.0.0",
+    "faiss-cpu>=1.9.0.post1",
+    "langchain-community>=0.2.7",
+    "langchain==0.2.7",
+    "ollama>=0.4.6",
+    "pymupdf>=1.25.1",
+    "pypdf>=5.1.0",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+    "sentence-transformers>=3.3.1",
+    "wget>=3.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
