@@ -14,6 +14,6 @@ Don't forget to add a rule to allow the port 11434 in the security group of the 
 
 `sudo docker run -d --restart=unless-stopped --gpus=all -p 11434:11434 --name ollama-gpu -e OLLAMA_NUM_PARALLEL=4 -e OLLAMA_MAX_LOADED_MODELS=4 ollama/ollama`
 
-`sudo docker exec -it ollama-gpu ollama run gemma`
+`sudo docker exec -it ollama-gpu ollama pull qwen2.5:0.5b`
 
 `sudo docker logs -f ollama-gpu`
