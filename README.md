@@ -20,3 +20,7 @@ Don't forget to add a rule to allow the port 11434 in the security group of the 
 `sudo docker exec -it ollama-gpu ollama pull qwen2.5:0.5b`
 
 `sudo docker logs -f ollama-gpu`
+
+Ollama website: https://ollama.com/
+
+qwen2.5 model: https://ollama.com/library/qwen2.5:0.5b
