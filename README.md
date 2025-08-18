@@ -1,4 +1,4 @@
-# AI-Days 2025 - RAG Workshop
+# CSIA - RAG Workshop
 
 ## Link to [google collab notebook](https://colab.research.google.com/drive/1JR0OlbjDuZXVFlLtNDhZTFsjR_qGLQLv#offline=true&sandboxMode=true)
 
