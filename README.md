@@ -1,4 +1,4 @@
-# CSIA - RAG Workshop
+# SWISS AI Center - RAG Workshop
 
 ## Link to [google collab notebook](https://colab.research.google.com/drive/1JR0OlbjDuZXVFlLtNDhZTFsjR_qGLQLv#offline=true&sandboxMode=true)
 
